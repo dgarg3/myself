@@ -1,5 +1,10 @@
 body {
-  background-color: #fed8b1;
+  background-image:url("images/Slide1.jpg");
+  background-blend-mode:Lighten;
+  background-color:#D3D3D3;
+  background-repeat:no-repeat;
+
+  background-size:cover;
   padding: 40px;
   font-family: Arial;
 }
@@ -11,3 +16,14 @@ text-align: center;
 p {
 text-align: center;
 }
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 10px;
+  background-color: #A9A9A9;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
